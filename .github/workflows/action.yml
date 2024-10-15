@@ -22,5 +22,4 @@ jobs:
         id: print-to-log
         uses: actions/hello-world-docker-action@main
         with:
-          myInput: "Arvind Singh"
-          who-to-greet: ${{ inputs.who-to-greet }}
+          who-to-greet: "Arvind Singh"
